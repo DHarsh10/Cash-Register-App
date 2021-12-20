@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register App</title>
+    <link href="main.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Cash Register <span class="head">Manager</span></h1>
+        <p class="description">Please Enter the bill amount and the cash given by the customer to know the minimum
+            number of notes to be return.</p>
+        <label for="billamount-txt">Bill Amount: </label>
+        <div class="btn"><input type="text" id="billamount-txt" class="input"></div>
+        <label for="cashgiven-txt">Cash Given: </label>
+        <div class="btn"><input type="text" id="cashgiven-txt" class="input"></div>
+        <div class="btn"><button id="check-btn" class="button">Check</button></div>
+        <div id="msg" class="alert"></div>
+        <label for="noteTable">Return Change: </label>
+
+        <table class="table" id="noteTable">
+
+            <tr>
+                <th class="table-clr1">No. Of Notes</th>
+                <td class="notesNumber"></td>
+                <td class="notesNumber"></td>
+                <td class="notesNumber"></td>
+                <td class="notesNumber"></td>
+                <td class="notesNumber"></td>
+                <td class="notesNumber"></td>
+                <td class="notesNumber"></td>
+            </tr>
+
+            <tr>
+                <th class="table-clr1">Notes</th>
+                <td class="table-clr1">2000</td>
+                <td class="table-clr1">500</td>
+                <td class="table-clr1">100</td>
+                <td class="table-clr1">50</td>
+                <td class="table-clr1">20</td>
+                <td class="table-clr1">10</td>
+                <td class="table-clr1">1</td>
+            </tr>
+        </table>
+
+
+    </div>
+    <script src="cash_reg.js" type="text/javascript"></script>
+   
+</body>
+
+</html>

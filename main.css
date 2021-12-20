@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container {
+    margin: auto;
+    padding: 1rem 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: palegreen;
+
+
+}
+
+.head {
+    background-color: palegreen;
+    color: black;
+}
+
+.input {
+    margin: 1rem;
+    padding: 0rem 0.4rem;
+    width: 10rem;
+}
+
+.button {
+    width: 60px;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: 2px solid #50C878;
+    color: palegreen;
+}
+
+.button:hover {
+    background-color: palegreen;
+    color: black;
+    border: 2px solid rgb(63, 104, 63);
+}
+
+.button:active {
+    transition: 0.1s;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+
+
+
+.description {
+    padding-bottom: 1rem;
+
+}
+
+.alert {
+    background-color: #5ACA75;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+}
+
+
+
+.table {
+    border: 1px;
+    margin-top: 0.5rem;
+}
+
+.notesNumber {
+    width: 10rem;
+    height: 0.1rem;
+    border: 0.09em solid palegreen;
+
+}
+
+.table-clr1 {
+    width: 10rem;
+    height: 1rem;
+    background-color: palegreen;
+    color: black;
+    border-collapse: separate;
+}
